@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vedatutor</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-warning" href="#">🚀 Vedatutor</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-2">
+        <li class="nav-item">
+          <a class="nav-link active fw-semibold" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="/about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">
+            Courses
+          </a>
+          <ul class="dropdown-menu shadow">
+            <li><a class="dropdown-item" href="#">Web Development</a></li>
+            <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+            <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <button type="button" class="btn btn-warning rounded-pill px-4" data-bs-toggle="modal" data-bs-target="#signupModal">
+        Enroll Now
+      </button>
+      
+  </div>
+</nav>
+
+
+    <div id="carouselExampleFade"
+     class="carousel slide carousel-fade shadow"
+     data-bs-ride="carousel"
+     data-bs-interval="3000">
+
+  <div class="carousel-inner ratio ratio-21x9">
+
+    <div class="carousel-item active">
+      <img src="image.png" class="d-block w-100 h-100 object-fit-cover img-fluid" alt="">
+      <div class="carousel-caption text-start">
+        <h2 class="fw-bold">Learn From Experts</h2>
+        <p>Build your future with Vedatutor Institute</p>
+        <button type="button" class="btn btn-warning rounded-pill" data-bs-toggle="modal" data-bs-target="#signupModal">Enroll Now</button>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="image1.png" class="d-block w-100 h-100 object-fit-cover img-fluid" alt="">
+      <div class="carousel-caption">
+        <h2 class="fw-bold">Practical Learning</h2>
+        <p>Real projects & hands-on training</p>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<div class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b"
+           class="img-fluid rounded shadow" alt="">
+    </div>
+    <div class="col-md-6">
+      <h3 class="fw-bold">About Vedatutor Institute</h3>
+      <p>
+        Vedatutor is a professional training institute providing
+        high-quality education in Web Development, IT & Technology.
+      </p>
+      <a class="btn btn-dark rounded-pill">Read More</a>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5 ">
+  <h2 class="text-center fw-bold mb-4">Our Courses</h2>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow h-100 text-center ">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+             class="card-img-top transition-scale" alt="">
+        <div class="card-body">
+          <h5 class="fw-bold">Web Development</h5>
+          <p>HTML, CSS, Bootstrap, JavaScript, React</p>
+          <button type="button" class="btn btn-warning rounded-pill" data-bs-toggle="modal" data-bs-target="#signupModal">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100 text-center  ">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d"
+             class="card-img-top  transition-scale" alt="">
+        <div class="card-body">
+          <h5 class="fw-bold">Graphic Design</h5>
+          <p>Photoshop, Illustrator, UI/UX</p>
+          <button type="button" class="btn btn-dark rounded-pill" data-bs-toggle="modal" data-bs-target="#signupModal">Enroll</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100 text-center ">
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786"
+             class="card-img-top transition-scale" alt="">
+        <div class="card-body">
+          <h5 class="fw-bold">Digital Marketing</h5>
+          <p>SEO, Social Media, Ads</p>
+          <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#signupModal">Enroll</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModalLabel">Sign Up / Enroll Now</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="course" class="form-label">Select Course</label>
+            <select class="form-select" id="course">
+              <option>Web Development</option>
+              <option>Graphic Design</option>
+              <option>Digital Marketing</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message (Optional)</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Submit Enrollment</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-light py-4">
+  <div class="container text-center">
+    <h5 class="fw-bold text-warning">Vedatutor Institute</h5>
+    <p>📍 Mumbai | 📞 9876543210 | ✉ info@vedatutor.com</p>
+    <small>© 2025 Vedatutor. All Rights Reserved</small>
+  </div>
+</footer>
+
+</body>
+</html>
